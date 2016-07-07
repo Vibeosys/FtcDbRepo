@@ -5,4 +5,3 @@ CREATE TABLE `user_notification` (
   PRIMARY KEY (`UserId`),
   CONSTRAINT `FkUserNotificationUserId` FOREIGN KEY (`UserId`) REFERENCES `users` (`userid`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='	';
-SELECT * FROM forex_trade_copier.user_notification;

@@ -12,4 +12,3 @@ CREATE TABLE `mobile_pages` (
   KEY `FkUsersPagesUserId_idx` (`Author`),
   CONSTRAINT `FkUserPagesUserId` FOREIGN KEY (`Author`) REFERENCES `users` (`userid`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=latin1;
-SELECT * FROM forex_trade_copier.user_subscription;

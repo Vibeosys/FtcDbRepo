@@ -1,4 +1,4 @@
-SELECT * FROM forex_trade_copier.mobile_pages;CREATE TABLE `gallery` (
+CREATE TABLE `gallery` (
   `ItemId` int(11) NOT NULL AUTO_INCREMENT,
   `ItemUrl` text,
   `UploadedDate` datetime DEFAULT NULL,
